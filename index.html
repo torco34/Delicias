@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap"
+      rel="stylesheet"
+    />
+    <!-- titulos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- botones -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- texto cuerpo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="img/logo.png" type="img" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="css/styless.css" /> -->
+    <link rel="stylesheet" href="css/ind.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- SECTION DONDE VA NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="logo">
+          <a href="./index.html" class="header-logo">
+            <span>
+              <img src="img/logo.png" alt="" class="img-titulo rounded-pill" />
+              <span class="I Love">DELICIAS GOURMET</span>
+            </span>
+          </a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item text-secondary">
+              <a class="active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="html5/parrilla.html">Parrilla</a>
+            </li>
+            <li class="nav-item">
+              <a href="html5/menu.html">Menú</a>
+            </li>
+            <li class="nav-item">
+              <a href="html5/pizza.html"> Pizza </a>
+            </li>
+            <li class="nav-item">
+              <a href="html5/hamburguesa.html"> Hamburguesa </a>
+            </li>
+            <li class="nav-item">
+              <a href="quienSomos.html"> QUIENES SOMOS </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- SECTION DONDE VA NAV -->
+    <!-- SECTION DONDE VA EL CARRUSEL -->
+    <section class="">
+      <div class="container-fluid manto-carrusel">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/index-hamburguesa.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HAMBURGUESA</h5>
+                <h3>
+                  Contamos con variedad en hamburguesas y excelente atención
+                </h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./img/index-pizz.jpg" class="d-block w-100" alt="..." />
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5>PIZZAS</h5>
+                <h3>
+                  Tenes la mas rica pizza con una masa crujiente con bordee
+                  bocadillo
+                </h3>
+              </div>
+              <div class="manto"></div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/index-carne-sle.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>PARRILLAS</h5>
+                <h3>
+                  ven a disfrutar de una deliciosa parrilla tu decides carne,
+                  pechuga o cerdo
+                </h3>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="manto"></div>
+      </div>
+    </section>
+    <!-- SECTION DONDE VA EL CARRUSEL -->
+    <!-- SECTION DONDE VA LA BIENVENIDA -->
+    <section class="">
+      <div class="container-fluid">
+        <div class="row bloque1-texto-bienve align-items-center">
+          <div
+            class="col-xs-12 col-sm-8 col-md-6 col-lg-4 col-xl-4 col-xxl-12 text-center"
+          >
+            <h2 class="top">Bienvenidos a Delicias Gourmet</h2>
+            <p class="top">Tenemos los mejores platos para todos los gustos</p>
+            <img src="img/wave.svg" alt="" class=" " />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DONDE VA LA BIENVENIDA -->
+
+    <!-- SECTION DONDE VA LA GALERIA-1 -->
+    <br /><br />
+    <section class="">
+      <div class="container-fluid bloque1-img-pequena">
+        <div class="row justify-content-evenly">
+          <div class="col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+            <img src="img/bloque1-carne.jpg" class="rounded" alt="" />
+          </div>
+
+          <div class="col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+            <img src="img/index-hambur.jpg" class="rounded" alt="" />
+          </div>
+
+          <div class="col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+            <img src="img/bloque1-pizza.jpg" alt="" class="rounded" />
+          </div>
+
+          <div class="col-xs-6 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+            <div class="box">
+              <img src="img/bloque1-pechuga.jpg" alt="" class="rounded" />
+              <div class="hover">
+                <h2 class="">Pechuga plancha</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <!-- SECTION DONDE VA LA GALERIA-1 -->
+    <!-- SECTION DONDE VAN INFORMACION NEGOCIO -->
+    <section class="">
+      <div class="container-fluid">
+        <div class="row align-items-center bloque3-img-leyenda">
+          <div
+            class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 separar"
+          >
+            <img src="./img/hacarne.jpg" class="bloque3Img" alt="" />
+          </div>
+          <div
+            class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-5 separar"
+          >
+            <div class="text-center">
+              <img src="img/logo.png" alt="" class="img-titulo rounded-pill" />
+              <h2 class="text-center p-4">Delicias Gourmet</h2>
+
+              <p>
+                Delicias Gourmet es un restaurante que dia a dia a mejorado para
+                que nuestros clientes se sientan agusto. nuestro mayor proposito
+                es que tu comida siempre sea la mejor. Que tu experiencia sea la
+                mejor, y tenga el placer de volver es un reto que.
+              </p>
+            </div>
+            <div class="text-center">
+              <a href="#" class="btn">Ver menu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DONDE VAN INFORMACION NEGOCIO -->
+    <!-- SECTION DONDE VA EL IMG SIMETRICAS VERDER -->
+    <section class="">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col text-center">
+            <h2 class="top">Vesita el mejor lugar de cucuta</h2>
+            <p class="top">Este lugar teneos el mejores platos</p>
+            <img src="img/wave (1).svg" alt="" class="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION DONDE VA EL IMG SIMETRICAS VERDER -->
+    <!-- SECTION DONDE VA EL MINIMENU -->
+    <br /><br />
+    <section class="">
+      <div class="container-fluid border">
+        <div class="row">
+          <div class="col-12 text-center border">
+            <h2>NUESTRO MENU DELICIAS GOURMET</h2>
+          </div>
+          <div class="row bloque-icon text-center">
+            <div class="col-4 border">
+              <img src="img/pzz.svg  " class="rounded" alt="" />
+            </div>
+            <div class="col-4 border">
+              <img src="img/index-ha.svg" class="rounded" alt="" />
+            </div>
+            <div class="col-4 border">
+              <img src="img/chef.svg" class="rounded" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly separar">
+          <div
+            class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 col-xxl-6 separar"
+          >
+            <div class="border text-center">
+              <h4 class="text-secondary">Hambuguesas</h4>
+              <p>
+                de Pollo, carne, doble carne, doble carne + pollo. desde $
+                8.000<br />
+                <a href="html5/contact" class="btn">ver mas</a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 col-xxl-5 separar"
+          >
+            <div class="border text-center">
+              <h4>Pallillas</h4>
+              <p>
+                Carne, Cerdo, Pechuga, Picadas. desde $ 14.000 <br />
+                <a href="html5/contact" class="btn">ver mas</a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 col-xxl-6 separar"
+          >
+            <div class="border text-center">
+              <h4>Pizzas</h4>
+              <p>
+                Completa de tres sabores $ 40.000, y la porciones $ 4.000 <br />
+                <a href="html5/contact.html" class="btn">ver mas</a>
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 col-xxl-5 separar"
+          >
+            <div class="border text-center">
+              <h4>Otros</h4>
+              <p class="">
+                Perros, Panzzerotti, Salchipapa, Salchipollo. Desde $ 6.000
+                <a href="html5/menu.html" class="btn">Ver menu</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION DONDE VA EL MINIMENU -->
+    <!-- SECTION DONDE VA  MIGEN FONDO -->
+    <br /><br />
+    <br /><br />
+    <section class="">
+      <div class="container-fluid separar">
+        <div class="row align-items-center imagen-fondo">
+          <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-8 col-xxl-8">
+            <p class="parrafo-img-fondo text-center hi">RESERVACION:</p>
+
+            <h3 class="text-center parrafo-haga-pedi hi">
+              Haga sus pedidos con tiempo!
+            </h3>
+            <br />
+
+            <h3 class="text-center parrafo-haga-pedi hi">
+              telefono; 3144652406
+            </h3>
+          </div>
+
+          <div
+            class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col-xl-4 col-xxl-4 text-center"
+          >
+            <a href="" class="btn btn-light">conctacto</a>
+          </div>
+          <div class="manto"></div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION DONDE VA  MIGEN FONDO -->
+    <!-- SECTION DONDE VA GALERI-2  -->
+    <section class="">
+      <div class="container-fluid border">
+        <!-- <div class="container"> -->
+        <div class="bloque5-galeria text-center">
+          <br /><br />
+          <h2>GALERIA NUESTRO MENU</h2>
+        </div>
+        <br /><br /><br />
+        <div class=" ">
+          <div class="row bloque5-img">
+            <div class="col col-3">
+              <div class="capa">
+                <img src="img/galeria-mixta.jpg" alt="" />
+                <div class="hover">
+                  <h3>Mi hamburgues</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col col-3">
+              <div class="capa">
+                <img src="img/galeria-pizza.jpg" alt="" />
+                <div class="hover">
+                  <h2>Mi pizza</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col col-3">
+              <div class="capa">
+                <img src="img/galeria-3carne.jpg" alt="" />
+                <div class="hover">
+                  <h3>Mi pizza</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col col-3">
+              <div class="capa">
+                <img src="img/galeria-picada.png" alt="" />
+                <div class="hover">
+                  <h2>Mi pizza</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          &nbsp
+          <div class="row bloque5-img">
+            <div class="col col-3">
+              <div class="capa">
+                <img src="img/carnes.jpg" alt="" />
+                <div class="hover">
+                  <h2>Mi pizza</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col col-3">
+              <div class="capa">
+                <img src="img/galeria-parrilla.jpg" alt="" />
+                <div class="hover">
+                  <h2>Mi parrila</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col col-3">
+              <div class="capa">
+                <img src="img/galeria-verde.jpg" alt="" />
+                <div class="hover">
+                  <h2>Mi verde</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col col-3">
+              <div class="capa">
+                <img src="img/galeria-carne.jpg" alt="" />
+                <div class="hover">
+                  <h2>Mi carne</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3"></div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+    <!-- SECTION DONDE VA GALERI-2  -->
+    <!-- SECTION FOTER -->
+    <br /><br /><br />
+    <section class="">
+      <div class="container-fluid footer-padre">
+        <div class="row text-center">
+          <h1>DELICIAS GOURMET</h1>
+        </div>
+        <div class="row">
+          <div class="col text-center"></div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION FOTER -->
+    <script src="js/index.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

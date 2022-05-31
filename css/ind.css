@@ -1,0 +1,444 @@
+body {
+  background-color: #474747;
+  font-size: 1.5rem;
+  /* overflow: initial; */
+  overflow-x: hidden;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #ffc000;
+  font-weight: bold;
+  font-family: "Anton", sans-serif;
+}
+h2:hover {
+  /* transform: scale(1.1); */
+  /* transition: calc(1s); */
+  /* text-shadow: 5px 5px 7px #A0E418; */
+  /* font-family: "Anton", sans-serif; */
+}
+h3 {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Anton", sans-serif;
+  transform: skew(10deg);
+}
+h4 {
+  font-family: "Anton", sans-serif;
+  color: #ffc000;
+  transform: skew(10deg);
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  position: relative;
+  font-size: 20px;
+  width: 40%;
+  color: #fff;
+  background-color: #66a439;
+  font-family: "Lobster Two", cursive;
+  border: solid 3px transparent;
+  box-sizing: border-box;
+  margin: auto;
+  z-index: 1;
+}
+
+.btn:hover {
+  color: #000;
+  background: #fff;
+  border: solid 2px #ffc000;
+  transform: scale(1.1);
+  transition: calc(1s);
+}
+/* SECTION NAV */
+.navbar {
+  position: fixed;
+  top: 0px;
+  z-index: 5;
+  width: 100%;
+  right: 0;
+  display: flex;
+  align-items: center;
+  /* border: #6ecb63 solid 3px; */
+}
+.nav-item {
+  text-align: center;
+  margin: 2rem;
+  box-sizing: border-box;
+}
+
+.nav-item a {
+  color: #262626;
+  text-decoration: none;
+  width: 100%;
+  margin: 25px;
+  font-size: 2rem;
+  padding: 5px;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+.nav-item a.active {
+  color: #66a439;
+}
+.nav-item a:hover {
+  color: #66a439;
+}
+/* COLOR BOTON  RESPOSIVE NAV*/
+.navbar-toggler {
+  background-color: #66a439;
+}
+/* EL LOGO NAV */
+.header-logo {
+  color: #66a439;
+  font-family: "Anton", sans-serif;
+}
+.header-logo:hover {
+  color: #66a439;
+}
+
+.img-titulo {
+  font-family: "Lobster Two", cursive;
+  margin: auto;
+  width: 56px;
+  height: 50px;
+  margin-left: 2rem;
+  box-sizing: border-box;
+}
+/* SECTION DEL CARRUSEL */
+
+.carousel-item > * h5 {
+  font-size: 4rem;
+}
+.carousel-item > * {
+  font-family: "Anton", sans-serif;
+  color: rgb(233, 236, 33);
+  font-size: 2rem;
+}
+.carousel-item img {
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* SECTION DE BIENVENIDA */
+.top {
+  position: relative;
+  top: 3rem;
+}
+/* SECTION DE GALERIA-1 */
+
+.bloque1-img-pequena {
+  cursor: pointer;
+}
+.bloque1-img-pequena img {
+  width: 95%;
+  margin: 5px;
+  /* opacity: 0.8; */
+}
+
+.hover {
+  width: 0%;
+  height: 0vh;
+  background-color: #1f1919;
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.hover h1 {
+  color: aliceblue;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.box:hover {
+  width: 100%;
+}
+
+/* INFORMACION DE LA INFORMCION DEL DELICIAS  */
+.separar {
+  margin: 10px;
+  /* border: solid 1px palevioletred; */
+}
+.bloque3Img {
+  width: 100%;
+  border-radius: 5px;
+  color: #545454;
+}
+.bloque3Img:hover {
+  transform: scale(1.1);
+  transition: calc(1s);
+}
+
+/* SECTION DE ICON */
+
+.bloque-icon img {
+  background-color: khaki;
+  cursor: pointer;
+  width: 25%;
+  margin: 50px;
+  padding: 5px;
+}
+/* IMAGEN DE FONDO */
+.imagen-fondo {
+  background-image: url("../img/pincho.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.manto2 {
+  position: relative;
+}
+.manto {
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  width: 100%;
+  background: #121212;
+  opacity: 0.6;
+}
+.parrafo-img-fondo {
+  position: relative;
+  z-index: 1;
+  color: #e0e693;
+  font-family: "Lobster Two", cursive;
+  font-size: 2rem;
+}
+.parrafo-haga-pedi {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  font-size: 5rem;
+}
+/* IMAGENES DE  GALERIA */
+
+.bloque5-img img {
+  /* width: 100%; */
+  border-radius: 2%;
+  /* border: solid 3px #e0e693; */
+}
+.footer-padre {
+  width: 100%;
+  height: 20vh;
+  /* background-color: #262626; */
+  background-color: #545454;
+}
+/* hover */
+.capa {
+  width: 100%;
+  /* height: 50vh; */
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  margin: 1.3%;
+  border-radius: 10px;
+  /* imagen pequena */
+}
+
+.capa img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.capa .hover {
+  width: 0%;
+  height: 50vh;
+  background-color: rgb(56, 53, 53, 0.568);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.4s all;
+}
+
+.hover h2 {
+  color: rgb(217, 198, 235);
+  text-shadow: 1px 1px 1px black;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.capa:hover .hover {
+  width: 100%;
+}
+/* SECTION DE PARRILLA */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont-img {
+  width: 15%;
+  margin: 10px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  border-radius: 50%;
+}
+.cont-img img {
+  width: 200px;
+  height: 20vh;
+  border-radius: 50%;
+  object-fit: cover;
+
+  box-shadow: 0 4px 8px 0 rgba(11, 12, 12, 0.2),
+    0 6px 20px 0 rgba(15, 14, 14, 0.19);
+}
+
+.cont-img .box {
+  width: 0%;
+  height: 25vh;
+  background-color: rgb(56, 53, 53, 0.568);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.4s all;
+}
+.box h1 {
+  color: rgb(217, 198, 235);
+  text-shadow: 1px 1px 1px black;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.cont-img:hover .box {
+  width: 100%;
+}
+.puntos,
+.parrilla {
+  border-bottom: 6px solid #66a439;
+  width: 100%;
+  object-fit: cover;
+}
+.cuadro-img img {
+  width: 100%;
+  outline: none;
+  border-radius: 0% 100% 0px 0%;
+  margin-top: 4rem;
+  object-fit: cover;
+  border: solid 2px #66a439;
+}
+
+.cuadro-img2 img {
+  width: 100%;
+  border-radius: 100% 0% 0px 0%;
+  margin-top: 4.5rem;
+  object-fit: cover;
+  /* border: solid 2px #f8f8ee; */
+}
+/* segundo bloque */
+.img-original img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+.containerParrilla div {
+  /* padding: 3rem; */
+  /* margin: 1rem; */
+}
+.picada {
+  color: #ffc000;
+}
+/* secion del menu */
+
+.menu-delicias h2 {
+  font-size: 6rem;
+  font-weight: bold;
+}
+.menu-delicias h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.linea {
+  width: 100%;
+  border-bottom: 6px solid #66a439;
+}
+.menu-parrilla {
+  /* padding: 2rem; */
+  margin: 2rem;
+  box-sizing: border-box;
+}
+.menu-parrilla img {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.menu-parrilla h2 {
+  width: 100%;
+  color: #66a439;
+}
+/* section de la piza */
+
+.containerPizza,
+.containerHamburguesa,
+.containerParrilla {
+  background-color: #1f1919;
+  object-fit: cover;
+  box-sizing: border-box;
+  /* height: 50vh; */
+}
+.contine-text {
+  padding: 3rem;
+}
+.img {
+  background-image: url("../img/galeria-parrilla.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 30vh;
+  position: relative;
+  opacity: 0.6;
+}
+.cuadro {
+  background-color: #1f1919;
+}
+.img h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4rem;
+  margin-top: 4rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imaPizzas img {
+  width: 100%;
+  outline: none;
+  border-radius: 100% 0% 0px 0%;
+  margin-top: 4rem;
+  height: 40vh;
+  object-fit: cover;
+}
+
+/* FOOTER PAGINA  */
+.footer-redes img {
+  width: 5rem;
+  border-radius: 50%;
+  margin: 10px;
+}
